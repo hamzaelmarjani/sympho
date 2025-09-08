@@ -1,22 +1,26 @@
-<h2 style="text-align: center;">Sympho - AI Speech Powered-by ElevenLabs.io</h2>
+<div style="text-align: center;">
 
-<p style="text-align: center;">🎵 Sympho – An open source, free, modern, well-designed, and high-performance AI Speech Generation solution powered by
-ElevenLabs.io. Includes a mobile app & API server for seamless speech solutions integration.</p>
+![sympho-logo](https://raw.githubusercontent.com/hamzaelmarjani/sympho/refs/heads/main/assets/sympho-logo.png?token=GHSAT0AAAAAADJR7PZKFGNGWLZRAKTYSCMO2F6TZWA)
+# Sympho - AI Speech Solutions
+
+🎵 **Sympho** – An open source, free, modern, well-designed, and high-performance AI Speech Generation solution powered by
+[ElevenLabs.io](https://elevenlabs.io/). Includes a mobile app & API server for seamless speech solutions integration.
 
 [![support](https://img.shields.io/badge/Support-Open_Source-black?style=for-the-badge&logo=Patreon&logoColor=white)](https://www.patreon.com/elmarjanihamza/gift)
 [![Flutter](https://img.shields.io/badge/Flutter-Repo-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/main/App/sympho-mobile-app-flutter)
 [![Rust](https://img.shields.io/badge/Rust-Repo-orange?style=for-the-badge&logo=Rust&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/main/API/sympho-api-rust)
 
+</div>
 
 ---
 
-### Why Sympho?
+## Why Sympho?
 
 ⏳ Time is the biggest challenge. Many developers want to build an MVP, launch a study project, or release a real AI
 Speech solution—but these apps take a lot of time to develop and test. That’s why I created Sympho: to help the
 community accelerate their AI Speech projects with a ready-to-use solution.
 
-### Features
+## Features
 
 - 🎨 **Beautiful & Friendly UI/UX** — built with [Shadcn/ui](https://ui.shadcn.com/) style.  
   Special thanks to the author of [shadcn_flutter](https://pub.dev/packages/shadcn_flutter) for his great package.
@@ -27,7 +31,8 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 
 - 🔐 **Secure API Server** — with authentication handling and middleware to verify user tokens.
 
-- 🤖 **ElevenLabs Integration** — seamless AI Speech generation via RESTful API.
+- 🤖 **ElevenLabs Integration** — seamless AI Speech generation
+  via [ElevenLabs.io](https://elevenlabs.io/docs/api-reference/introduction) RESTful API.
 
 - 🗝️ **Environment-Based Security** — use `.env` files to securely store API keys and secrets.
 
@@ -37,7 +42,7 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 
 ---
 
-### Solutions and Development Stacks
+## Solutions and Development Stacks
 
 🚀 This project marks a milestone, bringing together powerful solutions and modern technology stacks:
 
@@ -73,7 +78,7 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 
 ---
 
-### Usage
+## Usage
 
 - 📲 **Choose a Mobile App** — pick one of the available mobile apps and clone it to your machine.
 
@@ -82,4 +87,49 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 - 📖 **Follow Instructions** — check the **README.md** file in each project to learn how to set it up and use it.
 
 ---
+
+
+## Requirements
+
+- AI API: an [ElevenLabs API Key](https://elevenlabs.io/app/developers/api-keys).
+- Mobile app:
+  + Flutter: 
+    + [Dart SDK](https://dart.dev/get-dart)
+    + [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- API server app:
+  + Rust + ActixWeb:
+    + [Rust-Lang](https://www.rust-lang.org/learn/get-started)
+
+## License
+
+Licensed under either of:
+
+- [MIT License](LICENSE-MIT)
+- [Apache License, Version 2.0](LICENSE-APACHE)
+
+at your option.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please feel free to:
+
+- Open issues for bugs or feature requests
+- Submit pull requests with improvements
+- Improve documentation or examples
+- Add tests or benchmarks
+
+Before contributing, please ensure your code follows Rust conventions and includes appropriate tests.
+
+## Support
+
+If you like this project, consider supporting me on Patreon 💖
+
+[![patreon](https://img.shields.io/badge/Support-Open_Source-black?style=for-the-badge&logo=Patreon&logoColor=white)](https://www.patreon.com/elmarjanihamza/gift)
+
+---
+
+❤️ Thanks for reading, Happy Coding 💻
+
 
