@@ -15,6 +15,8 @@
 
 ---
 
+![Sympho Feature Cover](https://github.com/hamzaelmarjani/sympho/blob/ae90bc0daa915fb653eceb615f174103384d2b6e/assets/feature-cover.jpg?raw=true)
+
 ## Why Sympho?
 
 ⏳ Time is the biggest challenge. Many developers want to build an MVP, launch a study project, or release a real AI
@@ -81,9 +83,9 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 
 ## Usage
 
-- 📲 **Choose a Mobile App** — pick one of the available mobile apps and clone it to your machine.
+- 📲 **Choose a Mobile App** — pick one of the available [mobile apps](https://github.com/hamzaelmarjani/sympho/tree/main/App) and clone it to your machine.
 
-- ⚙️ **Choose an API Server** — pick one of the available API server apps and clone it to your machine.
+- ⚙️ **Choose an API Server** — pick one of the available [API server apps](https://github.com/hamzaelmarjani/sympho/tree/main/API) and clone it to your machine.
 
 - 📖 **Follow Instructions** — check the **README.md** file in each project to learn how to set it up and use it.
 
