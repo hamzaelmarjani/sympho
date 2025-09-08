@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![sympho-logo](https://raw.githubusercontent.com/hamzaelmarjani/sympho/refs/heads/main/assets/sympho-logo.png?token=GHSAT0AAAAAADJR7PZKSNWAQIY7HL3GHFVG2F7CQMQ)
+<img align="center" width="100" height="100" src="https://raw.githubusercontent.com/hamzaelmarjani/sympho/refs/heads/main/assets/sympho-logo.png?token=GHSAT0AAAAAADJR7PZKSNWAQIY7HL3GHFVG2F7CQMQ">
 
 # Sympho - AI Speech Solutions
 
