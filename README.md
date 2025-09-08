@@ -1,6 +1,7 @@
 <div style="text-align: center;">
 
 ![sympho-logo](https://raw.githubusercontent.com/hamzaelmarjani/sympho/refs/heads/main/assets/sympho-logo.png?token=GHSAT0AAAAAADJR7PZKFGNGWLZRAKTYSCMO2F6TZWA)
+
 # Sympho - AI Speech Solutions
 
 🎵 **Sympho** – An open source, free, modern, well-designed, and high-performance AI Speech Generation solution powered by
@@ -47,34 +48,34 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 🚀 This project marks a milestone, bringing together powerful solutions and modern technology stacks:
 
 - AI Speech Generation Solutions: 🔊
-    + TTS: Text-to-Speech. ✅
-    + STT: Speech-to-Text API. ⏳
-    + TTD: Text-to-Dialogue API. ⏳
-    + TTV: Text-to-Voice API. ⏳
-    + TTM: Text-to-Music API. ⏳
-    + SFX: Sound Effects API. ⏳
-    + VC: Voice Changer API. ⏳
-    + AUI: Audio Isolation API. ⏳
-    + DUB: Dubbing API. ⏳
 
+  - TTS: Text-to-Speech. ✅
+  - STT: Speech-to-Text API. ⏳
+  - TTD: Text-to-Dialogue API. ⏳
+  - TTV: Text-to-Voice API. ⏳
+  - TTM: Text-to-Music API. ⏳
+  - SFX: Sound Effects API. ⏳
+  - VC: Voice Changer API. ⏳
+  - AUI: Audio Isolation API. ⏳
+  - DUB: Dubbing API. ⏳
 
 - Mobile App Frameworks: 📱
-    + [Flutter](https://github.com/hamzaelmarjani/sympho/tree/main/App/sympho-mobile-app-flutter) ✅
-    + React Native ⏳
 
+  - [Flutter](https://github.com/hamzaelmarjani/sympho/tree/main/App/sympho-mobile-app-flutter) ✅
+  - React Native ⏳
 
 - API Server Frameworks: ⚙️
-    + [Rust ActixWeb](https://github.com/hamzaelmarjani/sympho/tree/main/API/sympho-api-rust) ✅
-    + Typescript NestJS ⏳
-    + Javascript ExpressJS ⏳
-    + Java SpringBoot ⏳
-    + Go Gin ⏳
-    + Python FastAPI ⏳
-    + Python Flask ⏳
-    + Python Django ⏳
-    + PHP Laravel ⏳
-    + Ruby on Rails ⏳
-    + C# ASP.NET ⏳
+  - [Rust ActixWeb](https://github.com/hamzaelmarjani/sympho/tree/main/API/sympho-api-rust) ✅
+  - Typescript NestJS ⏳
+  - Javascript ExpressJS ⏳
+  - Java SpringBoot ⏳
+  - Go Gin ⏳
+  - Python FastAPI ⏳
+  - Python Flask ⏳
+  - Python Django ⏳
+  - PHP Laravel ⏳
+  - Ruby on Rails ⏳
+  - C# ASP.NET ⏳
 
 ---
 
@@ -88,17 +89,16 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 
 ---
 
-
 ## Requirements
 
 - AI API: an [ElevenLabs API Key](https://elevenlabs.io/app/developers/api-keys).
 - Mobile app:
-  + Flutter: 
-    + [Dart SDK](https://dart.dev/get-dart)
-    + [Flutter SDK](https://docs.flutter.dev/get-started/install)
+  - Flutter:
+    - [Dart SDK](https://dart.dev/get-dart)
+    - [Flutter SDK](https://docs.flutter.dev/get-started/install)
 - API server app:
-  + Rust + ActixWeb:
-    + [Rust-Lang](https://www.rust-lang.org/learn/get-started)
+  - Rust + ActixWeb:
+    - [Rust-Lang](https://www.rust-lang.org/learn/get-started)
 
 ## License
 
@@ -122,14 +122,24 @@ Contributions are welcome! Please feel free to:
 
 Before contributing, please ensure your code follows Rust conventions and includes appropriate tests.
 
+---
+
+## 📬 Contact & Hire Me
+
+🚀 Want to add more advanced features to this app? I’ve got you covered! You can hire me.
+
+**Company or Startup?** I can work **full-time** or **part-time**, 👉 **Remote** or **On-site**.
+
+💌 Reach me at: **hamzaelmarjani@gmail.com**
+
+✨ Thank you!
+
+---
+
 ## Support
 
 If you like this project, consider supporting me on Patreon 💖
 
 [![patreon](https://img.shields.io/badge/Support-Open_Source-black?style=for-the-badge&logo=Patreon&logoColor=white)](https://www.patreon.com/elmarjanihamza/gift)
 
----
-
 ❤️ Thanks for reading, Happy Coding 💻
-
-

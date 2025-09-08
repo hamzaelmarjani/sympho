@@ -5,7 +5,7 @@ use std::env::var;
 use crate::structs::request::tts::TTSBody;
 
 pub async fn make_tts(body: TTSBody, low_mode: bool) -> Result<Vec<u8>, ElevenLabsTTSError> {
-    let api_key = var("ELEVENLABS_API_KEY_MAIN");
+    let api_key = var("ELEVENLABS_API_KEY");
 
     if api_key.is_err() {
         return Err(ElevenLabsTTSError::ApiError {

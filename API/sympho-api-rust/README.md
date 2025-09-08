@@ -1,0 +1,118 @@
+<div style="text-align: center;">
+
+# 🦀️ Sympho Rust—API Server
+
+Open source, free, secure, fast, and lightweight, Rust + ActixWeb API server app
+for - [Sympho](https://github.com/hamzaelmarjani/sympho) project.
+
+</div>
+
+---
+
+## Features
+
+- **[ActixWeb](https://actix.rs/) a powerful, pragmatic, and extremely fast web framework for Rust**. ✅
+- **Middleware guard** for authentication check before generating any speech. ✅
+- **ElevenLabs.io** REST API integration powered by reqwest, and async/await powered by Tokio. ✅
+- **Lightweight** uses a few necessary crates, pure Rust code. ✅
+- **Organized** folder structure, easy to understand. ✅
+- **Dockerfile** to deploy your app with one command from your CLI, build a lightweight & very optimized docker image. ✅
+- **JWT** integration to add one more security layer. ⏳
+- **Database** integration to store the generations in the cloud. ⏳
+- **Clouding Storage** integration to store the generated files in the cloud storing services like AWS S3, Google Cloud
+  Storage, Azure Blob Storage, etc. ⏳
+
+---
+
+## Services
+
+**Sympho** project comes with many AI Speech solutions, available until now:
+
+- TTS: Text-to-Speech. ✅
+- STT: Speech-to-Text API. ⏳
+- TTD: Text-to-Dialogue API. ⏳
+- TTV: Text-to-Voice API. ⏳
+- TTM: Text-to-Music API. ⏳
+- SFX: Sound Effects API. ⏳
+- VC: Voice Changer API. ⏳
+- AUI: Audio Isolation API. ⏳
+- DUB: Dubbing API. ⏳
+
+---
+
+## Usage
+
+1. Install [Rust](https://www.rust-lang.org/learn/get-started) language.
+
+2. Get [ElevenLabs API key](https://elevenlabs.io/app/developers/api-keys), create a free account, and get your API key.
+
+3. Set your **ElevenLabs API key** within the variable `ELEVENLABS_API_KEY` on `.env` file on the root of the project.
+
+4. Handle the middleware guard authentication by checking the `Authorization` header, for real app and production, you
+   should validate the received token, for now we use a fake token. Open the file `src/middleware/guard.rs` and handle this.
+
+5. Run the app with: `cargo run`.
+
+---
+
+## Build & Deploy
+
+- Build & Run: We use docker to build & Run the app locally.
+  - Open the project folder on the terminal or command line.
+  - Build the app with: `docker build -t sympho-api-rust .`.
+  - Set ElevenLabs API key within the variable `ELEVENLABS_API_KEY` on your environment variables, for example: `export ELEVENLABS_API_KEY=your-api-key-here`.
+  - Run the app: `docker run -p 8080:8080 -e ELEVENLABS_API_KEY=$ELEVENLABS_API_KEY sympho-api-rust`.
+  - If the app runs successfully, you can make a POST request using Postman or any other tool, to: `http://localhost:8080/v1/generation/tts`.
+- Deploy: Use docker to deploy the app on the cloud, you can use any cloud provider like AWS, Azure, GCP, DigitalOcean, etc. Most popular and recommended cloud providers:
+  - [AWS - ECS](https://aws.amazon.com/ecs/)
+  - [GCP - Cloud Run](https://cloud.google.com/run/docs/deploying)
+  - [Azure - ACI](https://azure.microsoft.com/en-us/products/container-instances)
+  - [DigitalOcean](https://www.digitalocean.com/solutions/docker-hosting)
+
+---
+
+## License
+
+Licensed under either of:
+
+- [MIT License](LICENSE-MIT)
+- [Apache License, Version 2.0](LICENSE-APACHE)
+
+at your option.
+
+---
+
+## Contributing
+
+Contributions are welcome! Please feel free to:
+
+- Open issues for bugs or feature requests
+- Submit pull requests with improvements
+- Improve documentation or examples
+- Add tests or benchmarks
+
+Before contributing, please ensure your code follows Rust conventions and includes appropriate tests.
+
+---
+
+## 📬 Contact & Hire Me
+
+🚀 Want to add more advanced features to this app? I’ve got you covered! You can hire me.
+
+**Company or Startup?** I can work **full-time** or **part-time**, 👉 **Remote** or **On-site**.
+
+💌 Reach me at: **hamzaelmarjani@gmail.com**
+
+✨ Thank you!
+
+---
+
+## Support
+
+If you like this project, consider supporting me on Patreon 💖
+
+[![patreon](https://img.shields.io/badge/Support-Open_Source-black?style=for-the-badge&logo=Patreon&logoColor=white)](https://www.patreon.com/elmarjanihamza/gift)
+
+---
+
+❤️ Thanks for reading, Happy Coding 💻
