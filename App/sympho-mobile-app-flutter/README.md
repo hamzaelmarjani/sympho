@@ -49,13 +49,17 @@ Open source, free, Well designed, user-friendly, and easy to use Flutter mobile 
 
 2. Download this [repository](https://github.com/hamzaelmarjani/sympho/tree/main/App/sympho-mobile-app-flutter), and open it in your work folder; you can use this [tool](https://download-directory.github.io/) to download only a dir without downloading or cloning the whole repository code.
 
-3. Open the folder in your terminal or command line, then open it it on your favorite code editor.
+3. Open the folder in your terminal or command line, then open it on your favorite code editor (VScode, Android Studio, etc).
 
 4. Updating Theme: open `lib/data/theme/shadcn.dart` file, and change the `ShadcnThemer` variable to your desired colors, sizes, fonts, etc.
+ 
+5. Updating Voices Male/Female: open `lib/data/voices/male-female/.dart` file, and change `isPro` variable to `true` or `false` to make the voice Pro or Free. IMPORTANT: Don't change the voice `id`, otherwise ElevenLabs won't detect this voice.
 
-5. Run your server app, and update the `baseUrl` variable in `lib/data/urls/server.dart` file. Default value is `http://localhost:8080`.
+6. Run your server app. Optional: Update the `baseUrl` variable in `lib/data/urls/server.dart` file with your API server url, default url is `http://localhost:8080` if you didn't change it.
 
-6. Run the app on your device or emulator or real device.
+7. NOTE: If you want to run the app on Android device or emulator, make sure to run this command first: `adb reverse tcp:8080 tcp:8080` change 8080 with your API server Port.
+
+8. Run the app on your emulator or real device.
 
 ---
 

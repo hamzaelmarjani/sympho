@@ -1,7 +1,6 @@
 import 'dart:io';
-
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:flutter/foundation.dart';
+import 'package:flutter/cupertino.dart';
 
 /// Check if the device is connected to at-least one network
 Future<bool> isConnected({required Function doubleCheckStarted}) async {

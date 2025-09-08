@@ -1,5 +1,7 @@
 import 'package:sympho/classes/voice.dart';
 
+/// TODO: Change the `isPro` value to `true` or `false` to set what voices are Pro and which are Free.
+/// TODO: IMPORTANT: Don't change the voice `id`, otherwise ElevenLabs won't detect this voice.
 DateTime date100 = DateTime(2025, 8, 27);
 
 List<Voice> femaleVoices = [

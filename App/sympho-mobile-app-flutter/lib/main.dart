@@ -65,13 +65,13 @@ class _SymphoAppState extends State<SymphoApp> {
   void initState() {
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       /// We can call all Initialization method required by our widgets
-      /// 1. Stored `GeneratedAudio` instance if exists
-      /// 2. remove the Splash screen persistent
 
+      /// 1. Stored `GeneratedAudio` instance if exists
       GeneratedAudiosProvider generatedAudiosProvider =
           Provider.of<GeneratedAudiosProvider>(context, listen: false);
       await generatedAudiosProvider.collectGeneratedAudios();
 
+      /// 2. remove the Splash screen persistent
       FlutterNativeSplash.remove();
     });
     super.initState();

@@ -154,7 +154,13 @@ class _GenerationsAudioPlayerState extends State<GenerationsAudioPlayer> {
                 ),
               ],
             ).gap(24),
-            GenerationsAudioPrompt(widget.audioInstance.request.text),
+            Flexible(
+              child: SingleChildScrollView(
+                child: GenerationsAudioPrompt(
+                  widget.audioInstance.request.text,
+                ),
+              ),
+            ),
           ],
         ).gap(16),
       ),

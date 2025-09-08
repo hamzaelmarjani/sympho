@@ -14,12 +14,13 @@ class GenerationsAudioPrompt extends StatelessWidget {
       style: TextStyle(
         fontFamily: ShadcnThemer().shadcnTheme.typography.sans.fontFamily,
         fontSize: 14,
+        height: 1.35,
         color: Colors.gray.shade400,
       ),
       textAlign: TextAlign.left,
       maxFontSize: 14,
       minFontSize: 14,
-      maxLines: 2,
+      maxLines: 3,
       overflow: TextOverflow.ellipsis,
     );
   }
