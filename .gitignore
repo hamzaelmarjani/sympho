@@ -1,6 +1,5 @@
 # Main root
 .DS_Store
-.gitignore
 
 # Sympho mobile app flutter:
 /App/.DS_Store
