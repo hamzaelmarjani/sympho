@@ -1,0 +1,89 @@
+name: sympho
+description: "Open source Sympho flutter mobile app"
+
+version: 1.0.0
+publish_to: "none"
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  shadcn_flutter: ^0.0.42
+  package_rename: ^1.10.0
+  just_audio: ^0.10.4
+  lucide_icons_flutter: ^3.0.9
+  dio: ^5.9.0
+  dio_smart_retry: ^7.0.1
+  path_provider: ^2.1.5
+  device_info_plus: ^11.5.0
+  connectivity_plus: ^6.1.5
+  url_launcher: ^6.3.2
+  flutter_secure_storage: ^9.2.4
+  icons_launcher: ^3.0.2
+  google_fonts: ^6.3.0
+  colorful_safe_area: ^1.0.0
+  pretty_dio_logger: ^1.4.0
+  collection: ^1.19.1
+  uuid: ^4.5.1
+  path: ^1.9.1
+  auto_size_text: ^3.0.0
+  share_plus: ^11.1.0
+  file_saver: ^0.3.1
+  flutter_native_splash: ^2.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/voices/samples/
+
+# ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+
+# TODO: The following configs are related to the app icon, app name & package name, and app splash-screen.
+# TODO: Note: before running the following commands, make sure you have get the packages by running: flutter pub get
+
+# TODO: 1. App Icon:
+# TODO: 1.1: Replace the icon with your own icon at: assets/app-icon.png
+# TODO: 1.2: From flutter app project root run: dart run icons_launcher:create
+icons_launcher:
+  image_path: "assets/app-icon.png"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
+
+# TODO: 2. App Name & Package Name:
+# TODO: 2.1: replace the app name (Sympho) with your own app name for Android & iOS.
+# TODO: 2.2: replace the app package name (cc.hamzaelmarjani.sympho-app) with your own app package name for Android & iOS.
+# TODO: 2.3: From flutter app project root run: dart run package_rename
+package_rename_config:
+  android:
+    app_name: Sympho
+    package_name: cc.hamzaelmarjani.sympho-app
+
+  ios:
+    app_name: Sympho
+    bundle_name: cc.hamzaelmarjani.sympho-app
+    package_name: cc.hamzaelmarjani.sympho-app
+
+# TODO: 3. App Splash-Screen:
+# TODO: 3.1: Replace the image with your own image at: assets/splash-screen.png, it must be vertical size (1920x1080p)
+# TODO: 3.2: From flutter app project root run: dart run flutter_native_splash:create
+# TODO: NOTE: If you want to remove the splash-screen, from flutter app project root run: dart run flutter_native_splash:remove
+flutter_native_splash:
+  background_image: "assets/splash-screen.png"
+
+# ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
