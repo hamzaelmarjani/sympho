@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div align="center">
 
 ![Sympho-Logo](https://github.com/hamzaelmarjani/sympho/blob/68343a59fc64345da0e6cff2f27ed7e5a0a77a04/assets/sympho-logo.png?raw=true)
 
