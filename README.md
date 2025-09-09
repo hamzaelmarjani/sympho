@@ -8,8 +8,8 @@
 [ElevenLabs.io](https://elevenlabs.io/). Includes a mobile app & API server for seamless speech solutions integration.
 
 [![support](https://img.shields.io/badge/Support-Open_Source-black?style=for-the-badge&logo=Patreon&logoColor=white)](https://www.patreon.com/elmarjanihamza/gift)
-[![Flutter](https://img.shields.io/badge/Flutter-Repo-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/main/App/sympho-mobile-app-flutter)
-[![Rust](https://img.shields.io/badge/Rust-Repo-orange?style=for-the-badge&logo=Rust&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/main/API/sympho-api-rust)
+[![Flutter](https://img.shields.io/badge/Flutter-Repo-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/master/App/sympho-mobile-app-flutter)
+[![Rust](https://img.shields.io/badge/Rust-Repo-orange?style=for-the-badge&logo=Rust&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-rust)
 
 </div>
 
@@ -63,11 +63,11 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 
 - Mobile App Frameworks: 📱
 
-  - [Flutter](https://github.com/hamzaelmarjani/sympho/tree/main/App/sympho-mobile-app-flutter) ✅
+  - [Flutter](https://github.com/hamzaelmarjani/sympho/tree/master/App/sympho-mobile-app-flutter) ✅
   - React Native ⏳
 
 - API Server Frameworks: ⚙️
-  - [Rust ActixWeb](https://github.com/hamzaelmarjani/sympho/tree/main/API/sympho-api-rust) ✅
+  - [Rust ActixWeb](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-rust) ✅
   - Typescript NestJS ⏳
   - Javascript ExpressJS ⏳
   - Java SpringBoot ⏳
@@ -83,9 +83,9 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 
 ## Usage
 
-- 📲 **Choose a Mobile App** — pick one of the available [mobile apps](https://github.com/hamzaelmarjani/sympho/tree/main/App) and clone it to your machine.
+- 📲 **Choose a Mobile App** — pick one of the available [mobile apps](https://github.com/hamzaelmarjani/sympho/tree/master/App) and clone it to your machine.
 
-- ⚙️ **Choose an API Server** — pick one of the available [API server apps](https://github.com/hamzaelmarjani/sympho/tree/main/API) and clone it to your machine.
+- ⚙️ **Choose an API Server** — pick one of the available [API server apps](https://github.com/hamzaelmarjani/sympho/tree/master/API) and clone it to your machine.
 
 - 📖 **Follow Instructions** — check the **README.md** file in each project to learn how to set it up and use it.
 
