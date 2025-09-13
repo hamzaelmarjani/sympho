@@ -1,6 +1,6 @@
 <div align="center">
 
-![Sympho-Logo](https://github.com/hamzaelmarjani/sympho/blob/240e4ab9697f17d08bd61197e9e6a7385984ee29/assets/feature-cover.jpg?raw=true)
+![Sympho-Logo](https://github.com/hamzaelmarjani/sympho/blob/a53e66da2cba69558783b07a69899e2776d7e138/assets/sympho-logo.png?raw=true)
 
 # Sympho - AI Speech Solutions
 
@@ -11,12 +11,13 @@
 [![Flutter](https://img.shields.io/badge/Flutter-Repo-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/master/App/sympho-mobile-app-flutter)
 [![Rust](https://img.shields.io/badge/Rust-Repo-orange?style=for-the-badge&logo=Rust&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-rust)
 [![NestJS](https://img.shields.io/badge/NestJS-Repo-red?style=for-the-badge&logo=NestJS&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-nestjs)
+[![SpringBoot](https://img.shields.io/badge/Springboot-Repo-green?style=for-the-badge&logo=Springboot&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-java)
 
 </div>
 
 ---
 
-![Sympho Feature Cover](https://github.com/hamzaelmarjani/sympho/blob/ae90bc0daa915fb653eceb615f174103384d2b6e/assets/feature-cover.jpg?raw=true)
+![Sympho Feature Cover](https://github.com/hamzaelmarjani/sympho/blob/240e4ab9697f17d08bd61197e9e6a7385984ee29/assets/feature-cover.jpg?raw=true)
 
 ## Why Sympho?
 
@@ -70,8 +71,8 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 - API Server Frameworks: ⚙️
   - [Rust + ActixWeb](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-rust) ✅
   - [NestJS](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-nestjs) ✅
+  - [Java + Springboot](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-java) ✅
   - ExpressJS ⏳
-  - Java + SpringBoot ⏳
   - Go + Gin ⏳
   - Python + Django ⏳
   - Python + Flask ⏳
@@ -104,8 +105,12 @@ community accelerate their AI Speech projects with a ready-to-use solution.
   - Rust + ActixWeb:
     - [Rust-Lang](https://www.rust-lang.org/learn/get-started)
   - NodeJS:
-    - [NodeJS](https://nodejs.org/en)
+    - [Node v18 or higher](https://nodejs.org/en)
     - [NestJS](https://nestjs.com/)
+  - Java:
+    - [Java SDK v17 or higher](https://www.oracle.com/java/technologies/downloads/)
+    - [Springboot CLI](https://docs.spring.io/spring-boot/installing.html#getting-started.installing.cli)
+    - [Maven v3.6.3 or higher](https://maven.apache.org/install.html)
 
 ## License
 
@@ -127,7 +132,7 @@ Contributions are welcome! Please feel free to:
 - Improve documentation or examples
 - Add tests or benchmarks
 
-Before contributing, please ensure your code follows Rust/NestJs/Flutter conventions and includes appropriate tests.
+Before contributing, please ensure your code follows Rust/NestJS/Java + Springboot/Flutter conventions and includes appropriate tests.
 
 ---
 

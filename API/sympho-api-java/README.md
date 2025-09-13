@@ -1,8 +1,8 @@
 <div style="text-align: center;">
 
-# 🐈 Sympho NestJS—API Server
+# ☕ Sympho Java + Springboot—API Server
 
-Open source, free, secure, fast, and lightweight, NestJS + Typescript server app
+Open source, free, secure, fast, and lightweight, Java + Springboot server app
 for - [Sympho](https://github.com/hamzaelmarjani/sympho) project.
 
 </div>
@@ -11,10 +11,10 @@ for - [Sympho](https://github.com/hamzaelmarjani/sympho) project.
 
 ## Features
 
-- **[NestJS](https://https://nestjs.com/) A progressive Node.js framework for building efficient, reliable and scalable server-side applications.**. ✅
+- **[Springboot](https://spring.io/projects/spring-boot) makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run" using Java SDK**. ✅
 - **Middleware guard** for authentication check before generating any speech. ✅
-- **ElevenLabs.io** REST API integration powered by [Elevenlabs Javascript SDK](https://elevenlabs.io/docs/agents-platform/libraries/java-script). ✅
-- **Lightweight** uses a few necessary npm dependencies. ✅
+- **ElevenLabs.io** Asynchronously REST API integration, thanks to [WebClient](https://www.baeldung.com/spring-5-webclient). ✅
+- **Lightweight** uses a few necessary Maven dependencies. ✅
 - **Organized** folder structure, easy to understand. ✅
 - **Dockerfile** to deploy your app with one command from your CLI, build a lightweight & very optimized docker image. ✅
 - **JWT** integration to add one more security layer. ⏳
@@ -42,25 +42,27 @@ for - [Sympho](https://github.com/hamzaelmarjani/sympho) project.
 
 ## Usage
 
-1. Install [NestJS CLI](https://docs.nestjs.com/cli/overview) package.
-2. Get [ElevenLabs API key](https://elevenlabs.io/app/developers/api-keys), create a free account, and get your API key.
-3. Set your **ElevenLabs API key** within the variable `ELEVENLABS_API_KEY` on `.env` file on the root of the project.
-4. Handle the middleware guard authentication by checking the `Authorization` header, for real app and production, you should validate the received token, for now we use a fake token. Open the file `src/middleware/auth.guard.ts` and handle this:
+1. Install [Java SDK v17+](https://www.oracle.com/java/technologies/downloads/).
+2. Install [Maven v3.6.3+](https://maven.apache.org/install.html)
+3. Install [Springboot CLI](https://docs.spring.io/spring-boot/installing.html#getting-started.installing.cli)
+4. Get [ElevenLabs API key](https://elevenlabs.io/app/developers/api-keys), create a free account, and get your API key.
+5. Set your **ElevenLabs API key** within the env variable `ELEVENLABS_API_KEY` on `elevenlabs.api_key` from the file `src/main/resources/application.properties`.
+6. Handle the middleware guard authentication by checking the `Authorization` header, for real app and production, you should validate the received token, for now we use a fake token. Open the file `src/main/java/cc/hamzaelmarjani/sympho_api_java/middleware/AuthInterceptor.java` and handle this:
 
 ```
- try {
-      // TODO: Handle the user check using the received token depending your situation.
-      // TODO: You can use JWT service or any mechanism you want.
-      // TODO: for now we will use just this fake token.
-      if (token != 'f77cc4dd-b796-42e7-9c93-c7a69a83ec34') {
-        throw new UnauthorizedException();
-      }
-    } catch {
-      throw new UnauthorizedException();
+private boolean isValidToken(String token) {
+        // TODO: Handle the user check using the received token depending your
+        // TODO: situation. You can use JWT service or any mechanism you want.
+        // TODO: for now we will use just this fake token.
+        if (!token.equals("f77cc4dd-b796-42e7-9c93-c7a69a83ec34")) {
+            return false;
+        }
+
+        return !token.trim().isEmpty(); // or false
     }
 ```
 
-6. Run the app with: `nest start`.
+7. Run the app with: `mvn spring-boot:run`.
 
 ---
 
@@ -68,9 +70,9 @@ for - [Sympho](https://github.com/hamzaelmarjani/sympho) project.
 
 - Build & Run: We use docker to build & Run the app locally.
   - Open the project folder on the terminal or command line.
-  - Build the app with: `docker build -t sympho-api-nestjs .`.
+  - Build the app with: `docker build -t sympho-api-java .`.
   - Set ElevenLabs API key within the variable `ELEVENLABS_API_KEY` on your environment variables, for example: `export ELEVENLABS_API_KEY=your-api-key-here`.
-  - Run the app: `docker run -p 8080:8080 -e ELEVENLABS_API_KEY=$ELEVENLABS_API_KEY sympho-api-nestjs`.
+  - Run the app: `docker run -p 8080:8080 -e ELEVENLABS_API_KEY=$ELEVENLABS_API_KEY sympho-api-java`.
   - If the app runs successfully, you can make a POST request using Postman or any other tool, to: `http://localhost:8080/v1/generation/tts`.
 - Deploy: Use docker to deploy the app on the cloud, you can use any cloud provider like AWS, Azure, GCP, DigitalOcean, etc. Most popular and recommended cloud providers:
   - [AWS - ECS](https://aws.amazon.com/ecs/)

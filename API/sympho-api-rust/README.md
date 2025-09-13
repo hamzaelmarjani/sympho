@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-# 🦀️ Sympho Rust—API Server
+# 🦀️ Sympho Rust + ActixWeb—API Server
 
 Open source, free, secure, fast, and lightweight, Rust + ActixWeb API server app
 for - [Sympho](https://github.com/hamzaelmarjani/sympho) project.
@@ -43,13 +43,21 @@ for - [Sympho](https://github.com/hamzaelmarjani/sympho) project.
 ## Usage
 
 1. Install [Rust](https://www.rust-lang.org/learn/get-started) language.
-
 2. Get [ElevenLabs API key](https://elevenlabs.io/app/developers/api-keys), create a free account, and get your API key.
-
 3. Set your **ElevenLabs API key** within the variable `ELEVENLABS_API_KEY` on `.env` file on the root of the project.
+4. Handle the middleware guard authentication by checking the `Authorization` header, for real app and production, you should validate the received token, for now we use a fake token. Open the file `src/middleware/guard.rs` and handle this:
 
-4. Handle the middleware guard authentication by checking the `Authorization` header, for real app and production, you
-   should validate the received token, for now we use a fake token. Open the file `src/middleware/guard.rs` and handle this.
+```
+if let Some(token) = get_token_from_header(&req) {
+        // TODO: Handle the user check using the received token depending your
+        // TODO: situation. You can use JWT service or any mechanism you want.
+        // TODO: for now we will use just this fake token.
+        if token == "f77cc4dd-b796-42e7-9c93-c7a69a83ec34" {
+            let res = next.call(req).await?;
+            return Ok(res.map_into_left_body());
+        }
+    }
+```
 
 5. Run the app with: `cargo run`.
 

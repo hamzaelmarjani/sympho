@@ -11,8 +11,9 @@ pub async fn guard(
     next: Next<impl MessageBody>,
 ) -> Result<ServiceResponse<EitherBody<impl MessageBody, impl MessageBody>>, ActixWebError> {
     if let Some(token) = get_token_from_header(&req) {
-        // TODO: later should check the token first
-        // TODO: with JWT service
+        // TODO: Handle the user check using the received token depending your
+        // TODO: situation. You can use JWT service or any mechanism you want.
+        // TODO: for now we will use just this fake token.
         if token == "f77cc4dd-b796-42e7-9c93-c7a69a83ec34" {
             let res = next.call(req).await?;
             return Ok(res.map_into_left_body());
