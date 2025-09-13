@@ -1,7 +1,9 @@
 name: sympho
 description: "Open source Sympho flutter mobile app"
 
-version: 1.0.0
+licence: "MIT"
+
+version: 1.0.1
 publish_to: "none"
 
 environment:
@@ -85,5 +87,4 @@ package_rename_config:
 # TODO: NOTE: If you want to remove the splash-screen, from flutter app project root run: dart run flutter_native_splash:remove
 flutter_native_splash:
   background_image: "assets/splash-screen.png"
-
 # ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----

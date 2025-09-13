@@ -10,6 +10,7 @@
 [![support](https://img.shields.io/badge/Support-Open_Source-black?style=for-the-badge&logo=Patreon&logoColor=white)](https://www.patreon.com/elmarjanihamza/gift)
 [![Flutter](https://img.shields.io/badge/Flutter-Repo-blue?style=for-the-badge&logo=flutter&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/master/App/sympho-mobile-app-flutter)
 [![Rust](https://img.shields.io/badge/Rust-Repo-orange?style=for-the-badge&logo=Rust&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-rust)
+[![NestJS](https://img.shields.io/badge/NestJS-Repo-red?style=for-the-badge&logo=NestJS&logoColor=white)](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-nestjs)
 
 </div>
 
@@ -67,17 +68,18 @@ community accelerate their AI Speech projects with a ready-to-use solution.
   - React Native ⏳
 
 - API Server Frameworks: ⚙️
-  - [Rust ActixWeb](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-rust) ✅
-  - Typescript NestJS ⏳
-  - Javascript ExpressJS ⏳
-  - Java SpringBoot ⏳
-  - Go Gin ⏳
-  - Python FastAPI ⏳
-  - Python Flask ⏳
-  - Python Django ⏳
-  - PHP Laravel ⏳
+  - [Rust + ActixWeb](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-rust) ✅
+  - [NestJS](https://github.com/hamzaelmarjani/sympho/tree/master/API/sympho-api-nestjs) ✅
+  - ExpressJS ⏳
+  - Java + SpringBoot ⏳
+  - Go + Gin ⏳
+  - Python + Django ⏳
+  - Python + Flask ⏳
+  - Python + FastAPI ⏳
+  - PHP + Laravel ⏳
   - Ruby on Rails ⏳
   - C# ASP.NET ⏳
+  - C++ Qt ⏳
 
 ---
 
@@ -101,6 +103,9 @@ community accelerate their AI Speech projects with a ready-to-use solution.
 - API server app:
   - Rust + ActixWeb:
     - [Rust-Lang](https://www.rust-lang.org/learn/get-started)
+  - NodeJS:
+    - [NodeJS](https://nodejs.org/en)
+    - [NestJS](https://nestjs.com/)
 
 ## License
 
@@ -122,7 +127,7 @@ Contributions are welcome! Please feel free to:
 - Improve documentation or examples
 - Add tests or benchmarks
 
-Before contributing, please ensure your code follows Rust conventions and includes appropriate tests.
+Before contributing, please ensure your code follows Rust/NestJs/Flutter conventions and includes appropriate tests.
 
 ---
 

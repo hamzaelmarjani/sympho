@@ -1,5 +1,6 @@
 # Main root
 .DS_Store
+__MACOSX
 
 # Sympho mobile app flutter:
 /App/.DS_Store
@@ -48,3 +49,42 @@
 /API/sympho-api-rust/.idea
 /API/sympho-api-rust/.env
 /API/sympho-api-rust/Cargo.lock
+
+# Sympho API nestjs:
+/API/sympho-api-nestjs/dist
+/API/sympho-api-nestjs/node_modules
+/API/sympho-api-nestjs/build
+/API/sympho-api-nestjs/logs
+/API/sympho-api-nestjs/*.log
+/API/sympho-api-nestjs/npm-debug.log*
+/API/sympho-api-nestjs/pnpm-debug.log*
+/API/sympho-api-nestjs/yarn-debug.log*
+/API/sympho-api-nestjs/yarn-error.log*
+/API/sympho-api-nestjs/lerna-debug.log*
+/API/sympho-api-nestjs/.DS_Store
+/API/sympho-api-nestjs/coverage
+/API/sympho-api-nestjs/.nyc_output
+/API/sympho-api-nestjs/.idea
+/API/sympho-api-nestjs/.project
+/API/sympho-api-nestjs/.classpath
+/API/sympho-api-nestjs/.c9/
+/API/sympho-api-nestjs/*.launch
+/API/sympho-api-nestjs/.settings/
+/API/sympho-api-nestjs/*.sublime-workspace
+/API/sympho-api-nestjs/.vscode/*
+/API/sympho-api-nestjs/!.vscode/settings.json
+/API/sympho-api-nestjs/!.vscode/tasks.json
+/API/sympho-api-nestjs/!.vscode/launch.json
+/API/sympho-api-nestjs/!.vscode/extensions.json
+/API/sympho-api-nestjs/.env
+/API/sympho-api-nestjs/.env.development.local
+/API/sympho-api-nestjs/.env.test.local
+/API/sympho-api-nestjs/.env.production.local
+/API/sympho-api-nestjs/.env.local
+/API/sympho-api-nestjs/.temp
+/API/sympho-api-nestjs/.tmp
+/API/sympho-api-nestjs/pids
+/API/sympho-api-nestjs/*.pid
+/API/sympho-api-nestjs/*.seed
+/API/sympho-api-nestjs/*.pid.lock
+/API/sympho-api-nestjs/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json

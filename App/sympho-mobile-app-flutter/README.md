@@ -47,19 +47,21 @@ Open source, free, Well designed, user-friendly, and easy to use Flutter mobile 
 
 1. Install [Dart](https://dart.dev/get-dart) language and set up [](https://docs.flutter.dev/get-started/install)the Flutter environment.
 
-2. Download this [repository](https://github.com/hamzaelmarjani/sympho/), and open it in your work folder; you can use this [tool](https://download-directory.github.io/) to download only a dir without downloading or cloning the whole repository code.
+2. Download this [repository](https://github.com/hamzaelmarjani/sympho/tree/master/App/sympho-mobile-app-flutter), and open it in your work folder; you can use this [tool](https://download-directory.github.io/) to download only a dir without downloading or cloning the whole repository code.
 
-3. Open the folder in your terminal or command line, then open it on your favorite code editor (VScode, Android Studio, etc).
+3. Open the folder in your terminal or command line, then open it on your favorite code editor (VScode, Cursor, Android Studio, Intellij IDEA, etc.).
 
 4. Updating Theme: open `lib/data/theme/shadcn.dart` file, and change the `ShadcnThemer` variable to your desired colors, sizes, fonts, etc.
- 
+
 5. Updating Voices Male/Female: open `lib/data/voices/male-female/.dart` file, and change `isPro` field to `true` or `false` to make the voice `Pro` or `Free`. **_IMPORTANT_**: Don't change the voice `id` field, otherwise ElevenLabs will not detect this voice.
 
-6. Run your server app. Optional: Update the `baseUrl` variable in `lib/data/urls/server.dart` file with your API server url, default url is `http://localhost:8080` if you didn't change it.
+6. Download one of the API server apps from this [repo](https://github.com/hamzaelmarjani/sympho/tree/master/API/), then run your server app.
 
-7. **_NOTE_**: If you want to run the app on Android device or emulator, run this command first: `adb reverse tcp:8080 tcp:8080` change 8080 with your API server Port.
+7. Optional: Update the `baseUrl` variable in `lib/data/urls/server.dart` file with your API server url, default url is `http://localhost:8080` if you didn't change it.
 
-8. Run the app on your emulator or real device.
+8. **_NOTE_**: If you want to run the app on Android device or emulator, run this command first: `adb reverse tcp:8080 tcp:8080` change 8080 with your API server Port.
+
+9. Run the app on your emulator or real device.
 
 ---
 
@@ -68,28 +70,27 @@ Open source, free, Well designed, user-friendly, and easy to use Flutter mobile 
 Before building the app, make sure you have updated the app icon, app name, app package name and app splash screen.
 
 - App Icon:
-  + Update the app icon under: `assets/app-icon.png`, use a tool like [appicon.co](https://appicon.co/) or [icon.kitchen](https://icon.kitchen/) to generate the app icon.
-  + Open the project folder on the terminal or command line.
-  + Make sure you install the dependencies, run: `flutter pub get`.
-  + Generate the app icon, run: `dart run icons_launcher:create`.
 
+  - Update the app icon under: `assets/app-icon.png`, use a tool like [appicon.co](https://appicon.co/) or [icon.kitchen](https://icon.kitchen/) to generate the app icon.
+  - Open the project folder on the terminal or command line.
+  - Make sure you install the dependencies, run: `flutter pub get`.
+  - Generate the app icon, run: `dart run icons_launcher:create`.
 
 - App Name & Package Name:
-   + Open the file `pubspec.yaml` and update the `app_name`, `package_name` and `bundle_name` variables, you can find them below `package_rename_config`.
-   + Open the project folder on the terminal or command line.
-   + Make sure you install the dependencies, run: `flutter pub get`.
-   + Generate the app names, run: `dart run package_rename`.
 
+  - Open the file `pubspec.yaml` and update the `app_name`, `package_name` and `bundle_name` variables, you can find them below `package_rename_config`.
+  - Open the project folder on the terminal or command line.
+  - Make sure you install the dependencies, run: `flutter pub get`.
+  - Generate the app names, run: `dart run package_rename`.
 
 - App Splash Screen:
-    + Update the splash screen under: `assets/splash-screen.png`, make ure the image is vertical 9:16.
-    + Open the project folder on the terminal or command line.
-    + Make sure you install the dependencies, run: `flutter pub get`.
-    + Generate the app icon, run: `dart run flutter_native_splash:create`.
-    + NOTE: if you want to remove the splash screen, you can run: `dart run flutter_native_splash:remove`.
+  - Update the splash screen under: `assets/splash-screen.png`, make ure the image is vertical 9:16.
+  - Open the project folder on the terminal or command line.
+  - Make sure you install the dependencies, run: `flutter pub get`.
+  - Generate the app icon, run: `dart run flutter_native_splash:create`.
+  - NOTE: if you want to remove the splash screen, you can run: `dart run flutter_native_splash:remove`.
 
 Your app now readies to **build and publish**. Follow the flutter [official guide—iOS](https://flutter.dev/docs/deployment/ios), or the flutter [official guide—Android](https://flutter.dev/docs/deployment/android) to build and publish the app.
-
 
 ## License
 
@@ -117,7 +118,7 @@ Before contributing, please ensure your code follows Rust conventions and includ
 
 ## 📬 Contact & Hire Me
 
-🚀 Want to add more advanced features to this app?  I’ve got you covered! You can hire me.
+🚀 Want to add more advanced features to this app? I’ve got you covered! You can hire me.
 
 **Company or Startup?** I can work **full-time** or **part-time**, 👉 **Remote** or **On-site**.
 
