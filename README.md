@@ -17,7 +17,7 @@
 
 ---
 
-![Sympho Feature Cover](https://github.com/hamzaelmarjani/sympho/blob/240e4ab9697f17d08bd61197e9e6a7385984ee29/assets/feature-cover.jpg?raw=true)
+![Sympho Feature Cover](https://github.com/hamzaelmarjani/sympho/blob/d7a05d8918490dd1ec9af674d1c93ac6579d5889/assets/feature-cover.jpg?raw=true)
 
 ## Why Sympho?
 
